@@ -7,7 +7,7 @@ correctUsername="kaleb"
 correctPassword="password"
 
 #if statement to check if $1 is null. (to check if no input was given)
-    if [[ specialVar == null ]]
+    if [[ specialVar == null ]];
     then
         echo "uh oh, we got a $1 null error!"
         exit
