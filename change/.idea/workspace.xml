@@ -12,26 +12,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landingpage/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" selection-start-line="30" selection-end-line="37" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/landingpage/design.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/positionpractice/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/positionpractice/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="314">
+                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,14 +59,22 @@
         <option value="$USER_HOME$/Downloads/addStyles.html" />
         <option value="$PROJECT_DIR$/landingpage/index.html" />
         <option value="$PROJECT_DIR$/landingpage/design.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/foggyglass/index.html" />
+        <option value="$PROJECT_DIR$/foggyglass/style.css" />
+        <option value="$PROJECT_DIR$/mock site/style.css" />
+        <option value="$PROJECT_DIR$/mock site/index.html" />
+        <option value="$PROJECT_DIR$/positionpractice/index.html" />
+        <option value="$PROJECT_DIR$/positionpractice/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="277" />
-    <option name="y" value="89" />
-    <option name="width" value="1275" />
-    <option name="height" value="817" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="322" />
+    <option name="y" value="1223" />
+    <option name="width" value="1255" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -63,6 +87,11 @@
             <path>
               <item name="change" type="b2602c69:ProjectViewProjectNode" />
               <item name="change" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="change" type="462c0819:PsiDirectoryNode" />
+              <item name="positionpractice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -87,14 +116,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Final Website" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foggyglass" />
       <recent name="$PROJECT_DIR$/landingpage" />
     </key>
   </component>
@@ -125,12 +157,15 @@
       <workItem from="1547333805247" duration="456000" />
       <workItem from="1547334416017" duration="224000" />
       <workItem from="1547477068207" duration="5596000" />
-      <workItem from="1547563760306" duration="8442000" />
+      <workItem from="1547563760306" duration="8828000" />
+      <workItem from="1547736442434" duration="4107000" />
+      <workItem from="1547740566822" duration="1919000" />
+      <workItem from="1547742502237" duration="4359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21549000" />
+    <option name="totallyTimeSpent" value="32320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -142,11 +177,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="52" width="1275" height="817" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="1107" width="1920" height="1053" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24979658" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1693376" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -212,17 +246,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/landingpage/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/landingpage/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="450">
           <caret line="30" selection-start-line="30" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landingpage/design.html">
+    <entry file="file://$PROJECT_DIR$/foggyglass/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="570">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foggyglass/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock site/index.html" />
+    <entry file="file://$PROJECT_DIR$/mock site/style.css" />
+    <entry file="file://$PROJECT_DIR$/positionpractice/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/positionpractice/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
