@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        html{
+            font-family: Ubuntu, serif;
+        }
+
+        tr, th, td{
+            border: solid darkred 1px;
+            padding:10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        form{
+            /*display: flex;*/
+            flex-direction: column;
+        }
+        form:invalid{
+            /*text-blink: ;*/
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Listing of Employees</caption>
+        <thead>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Title</td>
+                <td >Start Date</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Brad</td>
+                <td>Miller</td>
+                <td>Developer</td>
+                <td>4/15/2006</td>
+            </tr>
+            <tr>
+                <td>Ben</td>
+                <td>Sanders</td>
+                <td rowspan="2">QA</td>
+                <td>10/1/19999</td>
+            </tr>
+            <tr>
+                <td>Marcia</td>
+                <td>Ball</td>
+                <td>5/10/1981</td>
+            </tr>
+            <tr>
+                <td>Leslie</td>
+                <td>Wooley</td>
+                <td>Project Manager</td>
+                <td>4/11/1993</td>
+            </tr>
+        </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Don't try it, I have the High Ground. YOU UNDERESTIMATE MY POWER! *scream of power *saber slash* *ded* YOU WERE THE CHOSEN ONE! YOU WERE SUPPOSED TO DESTROY THE SITH NOT JOIN THEM! YOU WERE MY BROTHER ANAKIN</td>
+                </tr>
+            </tfoot>
+    </table>
+
+<iframe src="./index.html">
+    <p>your browser does not support iframes :(</p>
+</iframe>
+
+    <pre>
+
+                c==o
+              _/____\_
+       _.,--'" ||^ || "`z._
+      /_/^ ___\||  || _/o\ "`-._
+    _/  ]. L_| || .||  \_/_  . _`--._
+   /_~7  _ . " ||. || /] \ ]. (_)  . "`--.
+  |__7~.(_)_ []|+--+|/____T_____________L|
+  |__|  _^(_) /^   __\____ _   _|
+  |__| (_){_) J ]K{__ L___ _   _]
+  |__| . _(_) \v     /__________|________
+  l__l_ (_). []|+-+-<\^   L  . _   - ---L|
+   \__\    __. ||^l  \Y] /_]  (_) .  _,--'
+     \~_]  L_| || .\ .\\/~.    _,--'"
+      \_\ . __/||  |\  \`-+-<'"
+        "`---._|J__L|X o~~|[\\
+               \____/ \___|[//
+                `--'   `--+-'
+    </pre>
+
+
+
+
+<form>
+    <div><label for ='firstName'>First Name: </label><input id="firstName" name="first" type="text" required></div>
+    <div><label for ='password'>Password: </label><input id="password" name="password" type="password"></div>
+   <div><label for ='email'>Email: </label><input id="email" name="email" type="email"></div>
+    <input type="submit" value="Submit">
+    <select>
+        <option label="sports" value="1"></option>
+        <option label="video games" value="1"></option>
+        <option label="software dev" value="1"></option>
+    </select>
+    <textarea rows="5" cols="30" placeholder="What I learned in boating school is..."></textarea>
+</form>
+
+
+
+</body>
+</html>
