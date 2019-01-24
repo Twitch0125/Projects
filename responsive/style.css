@@ -1,0 +1,45 @@
+body{
+    background-color: #4081eb
+}
+
+
+.container{
+    width: calc(100% - 40px);
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.left{
+    background-color: lightgreen;
+    width: 50%;
+    height: 100px;
+}
+
+.right{
+    background-color: purple;
+    width:50%;
+    height: 100px;
+
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: indianred;
+    }
+    .container{
+        display: block;
+
+    }
+    .container:last-child{
+        margin-bottom: 0;
+    }
+    .left, .right{
+        width: 100%;
+        margin: 20px auto;
+
+    }
+}

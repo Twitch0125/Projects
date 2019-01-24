@@ -1,0 +1,63 @@
+html{
+    font-family: "Manjari Thin", sans-serif;
+}
+.topnav, #sidenav{
+    background-color: darkblue;
+}
+
+#sidenav{
+    position: fixed;
+    left: -250px;
+    transition: all .3s;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: darkblue;
+    justify-content: flex-end;
+}
+
+.openbtn{
+    flex-grow: 1;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+a{
+    color: white;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    transition: all .2s;
+    font-size: 1.6em;
+}
+
+a:hover{
+    color:lightgreen;
+}
+
+.secret{
+    display: block;
+    width: 50%;
+    color:black;
+    background-color: transparent;
+
+
+    transition: all 1s;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightcoral;
+    }
+
+    .openbtn{
+        visibility:visible;
+    }
+}
