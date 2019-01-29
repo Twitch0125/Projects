@@ -1,13 +1,188 @@
-$myred: #fff323;
-
+$myred: #726d33;
+$myfont: Manjari, sans-serif;
+$myheadingfont: Manjari, Serif;
 $mywhite: white;
+$myfontsize: 1.2em;
+$datesize: .7em;
+$btngreen: green;
+$btnred: red;
+$btnyellow: yellow;
+$widgetbackground: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+$widgethead: #eeeeee;
+$widgetheadcolor: #000000;
+
+
+
+//TODO: create separate button area
+.widget{
+  width: 500px;
+  height: 500px;
+  background: $widgetbackground;
+  display: flex;
+  flex-flow: column;
+  color: white;
+  margin: auto;
+
+  
+  .widgethead{
+      height: 10%;
+      background-color: $widgethead;
+      text-align: center;
+      color: $widgetheadcolor;
+  }
+  .widgetbody{
+    text-align: center;
+    font-size: 1.8em;
+    margin: auto;
+    // background: $widgetbackground;
+    color: black;
+  }
+  .btnarea {
+    display: flex;
+    justify-content: space-between;
+}
+
+}
+
+@mixin mycontainer($mypadding){
+  padding: $mypadding;
+  margin: $mypadding;
+  background-color: white;
+  border-radius: $mypadding;
+}
+
+@mixin defaultbtn(){
+  padding: 12px 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  border: 1px solid #dadfea;
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ffffff;
+//ask about including variables from a mixin kinda thang
+}
+
+.btn{
+  @include defaultbtn();
+}
+.actionbtn{
+  @include defaultbtn();
+  background-color: $btngreen;
+  color: #ffffff;
+}
+.warningbtn{
+  @include defaultbtn();
+  background-color: $btnred;
+}
+.cancelbtn{
+  @include defaultbtn();
+  background-color: $btnyellow;
+}
+.colorTheme{
+font-size: 1.2em;
+background-color: #252525;
+color: #c56f1f;
+}
+
+
+html, body{
+  height: 100%;
+  width: 95%;
+}
 
 body{
-  background-color: #ff323f;
-  width: 100%;
+  font-family: $myfont;
+  @extend .colorTheme;
+
 
   .container{
+    @include mycontainer(25px);
+    @extend .colorTheme;
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    color: $myred;
+    height: 100%;  }
+
+  .left{
+    width: 50%;
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);    .imagecontainer{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      background-image: url(../images/profile.jpg);
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align:center;
+
+
+      .nametitle{
+        font-size: 3em;
+        
+      }
+      .subtitle{
+        font-size: 2em;
+      }
+      .quote{
+        font-size: 1.5em;
+        
+        
+        
+      }
+    }
+  }
+
+  .right{
+    width: 50%;
+    background-color: #ffffff;
+    height: 100%;
+    
+    .expcontainer{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-content: space-between;
+      margin: auto 10%;
+
+      .expitem{
+        margin: auto;
+        .date{
+          font-weight: bold;
+          color: #000000;
+          font-size: $datesize;
+
+        }
+        .headingTitle{
+          font-size: $datesize;
+
+        }
+        .heading{
+          color: #2b2b2b;
+          font-size: 1.6em;
+          font-family: $myheadingfont;
+          font-weight: 100;
+        }
+        .article{
+          color: black;
+          font-size: .89em;
+        }
+      }
+      
+    }
+
+
+  }
+}
+
+
+
+@import 'imgcomp';
+
+@media only screen and (max-width: 600px){
+  .container{
+    flex-direction: column;
   }
 }

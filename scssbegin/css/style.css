@@ -1,6 +1,140 @@
+.widget {
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
+  display: flex;
+  flex-flow: column;
+  color: white;
+  margin: auto; }
+  .widget .widgethead {
+    height: 10%;
+    background-color: #eeeeee;
+    text-align: center;
+    color: #000000; }
+  .widget .widgetbody {
+    text-align: center;
+    font-size: 1.8em;
+    margin: auto;
+    color: black; }
+  .widget .btnarea {
+    display: flex;
+    justify-content: space-between; }
+
+.btn {
+  padding: 12px 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  border: 1px solid #dadfea;
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ffffff; }
+
+.actionbtn {
+  padding: 12px 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  border: 1px solid #dadfea;
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ffffff;
+  background-color: green;
+  color: #ffffff; }
+
+.warningbtn {
+  padding: 12px 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  border: 1px solid #dadfea;
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ffffff;
+  background-color: red; }
+
+.cancelbtn {
+  padding: 12px 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+  border: 1px solid #dadfea;
+  font-size: 13px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ffffff;
+  background-color: yellow; }
+
+.colorTheme, body, body .container {
+  font-size: 1.2em;
+  background-color: #252525;
+  color: #c56f1f; }
+
+html, body {
+  height: 100%;
+  width: 95%; }
+
 body {
-  background-color: #ff323f;
-  width: 100%; }
+  font-family: Manjari, sans-serif; }
   body .container {
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    color: #fff323; }
+    height: 100%; }
+  body .left {
+    width: 50%;
+    background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%); }
+    body .left .imagecontainer {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      background-image: url(../images/profile.jpg);
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center; }
+      body .left .imagecontainer .nametitle {
+        font-size: 3em; }
+      body .left .imagecontainer .subtitle {
+        font-size: 2em; }
+      body .left .imagecontainer .quote {
+        font-size: 1.5em; }
+  body .right {
+    width: 50%;
+    background-color: #ffffff;
+    height: 100%; }
+    body .right .expcontainer {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-content: space-between;
+      margin: auto 10%; }
+      body .right .expcontainer .expitem {
+        margin: auto; }
+        body .right .expcontainer .expitem .date {
+          font-weight: bold;
+          color: #000000;
+          font-size: 0.7em; }
+        body .right .expcontainer .expitem .headingTitle {
+          font-size: 0.7em; }
+        body .right .expcontainer .expitem .heading {
+          color: #2b2b2b;
+          font-size: 1.6em;
+          font-family: Manjari, Serif;
+          font-weight: 100; }
+        body .right .expcontainer .expitem .article {
+          color: black;
+          font-size: .89em; }
+
+.imgcontainer {
+  width: 50%; }
+  .imgcontainer .nametitle {
+    font-size: 20px; }
+  .imgcontainer .subtitle {
+    font-size: 12px; }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column; } }
