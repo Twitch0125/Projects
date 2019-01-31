@@ -1,0 +1,88 @@
+
+$myblue: #3781C5;
+$myred: #EE5556;
+
+html{
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin defaultbtn(){
+  padding: 12px 18px;
+  font-size: 13px;
+  background-color: #ffffff;
+  border: 1px solid $myblue;
+  color: $myblue;
+  border-radius: 5px;
+}
+@mixin cont(){
+  border: 1px solid #dadfea;
+  border-radius: 4px;
+}
+.titlebar{
+  background-color: $myblue;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.comp{
+  @include cont;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .header{
+    @extend .titlebar;
+  }
+  .middle{
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.btn{
+  @include defaultbtn;
+}
+
+.actionbtn{
+  @include defaultbtn;
+  color: #ffffff;
+  background-color: $myred;
+  border:none;
+}
+
+.container{
+  width: 800px;
+  .top{
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+      width: 48%;
+    }
+    .right{
+      width: 48%;
+    }
+  }
+
+  .footer{
+    @include cont;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+}

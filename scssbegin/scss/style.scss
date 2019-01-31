@@ -13,6 +13,16 @@ $widgetheadcolor: #000000;
 
 
 
+
+.widgetarea{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+}
+
 //TODO: create separate button area
 .widget{
   width: 500px;
@@ -20,7 +30,6 @@ $widgetheadcolor: #000000;
   background: $widgetbackground;
   display: flex;
   flex-flow: column;
-  color: white;
   margin: auto;
 
   
@@ -37,12 +46,20 @@ $widgetheadcolor: #000000;
     // background: $widgetbackground;
     color: black;
   }
-  .btnarea {
-    display: flex;
-    justify-content: space-between;
-}
+
+
+
 
 }
+
+.btnarea {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+}
+
+
+
 
 @mixin mycontainer($mypadding){
   padding: $mypadding;
@@ -98,8 +115,10 @@ body{
   .container{
     @include mycontainer(25px);
     @extend .colorTheme;
-    display: flex;
+    // display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: center;
     width: 100%;
     height: 100%;  }
 
@@ -181,8 +200,9 @@ body{
 
 @import 'imgcomp';
 
-@media only screen and (max-width: 600px){
-  .container{
-    flex-direction: column;
-  }
-}
+
+// @media only screen and (max-width: 600px){
+//   .container{
+//     flex-direction: column;
+//   }
+// }
