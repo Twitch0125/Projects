@@ -1,0 +1,26 @@
+.container{
+    width: 35%;
+    height: 100%;
+    border: 1px grey inset;
+    margin: auto;
+    display:flex;
+    background-color: #dad
+}
+.left{
+    width: 50%;
+}
+
+.container .left ul{
+    list-style: none;
+}
+
+.container .right{
+    width: 50%;
+
+}
+
+img{
+    max-height: 400px;
+    padding: 10px 0px;
+    
+}
