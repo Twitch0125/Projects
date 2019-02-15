@@ -1,0 +1,7 @@
+.calendar {
+  flex-direction: column;
+  color: #ff2554; }
+  .calendar .day {
+    text-align: center; }
+  .calendar .month {
+    text-align: center; }
