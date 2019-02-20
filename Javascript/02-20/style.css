@@ -1,3 +1,7 @@
 *{
-    font-family: 'manjari', 'sans-serif';
+    font-family: 'sk-modernist', 'sans-serif';
+    font-size: 3em;
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 4px red;
 }
