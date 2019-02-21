@@ -1,0 +1,18 @@
+.list{
+    padding-top: 20px;
+    font-size: 24px;
+}
+span:hover, span:focus{
+    color: green;
+}
+.fa-trash{
+    padding-right: 20px;
+    color: red;
+}
+
+
+
+.animate{
+    font-size: 28px;
+    transition: .75s;
+}
