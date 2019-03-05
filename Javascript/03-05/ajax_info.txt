@@ -1,3 +1,14 @@
-<div class='note'>
-    this is a note
-</div>
+{
+    "StoreName": "Trent's Store",
+    "StoreItems": [
+        {"itemName":"shoes", "Price": "$50.67"},
+        {"itemName":"xbox", "Price": "$588.67"},
+        {"itemName":"ps4", "Price": "$588.67"},
+        {"itemName":"ds", "Price": "$52.67"},
+        {"itemName":"switch", "Price": "$53.67"},
+        {"itemName":"potato", "Price": "$45.67"},
+        {"itemName":"tv", "Price": "$55.67"},
+        {"itemName":"laptop", "Price": "$85.67"},
+        {"itemName":"pc", "Price": "$9.67"}
+    ]
+}
