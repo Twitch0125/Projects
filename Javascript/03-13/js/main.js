@@ -31,6 +31,9 @@ class Printer {
   get status() {
     return this._status;
   }
+  set status(data){
+      
+  }
 }
 
 class InkJetPrinter extends Printer {
